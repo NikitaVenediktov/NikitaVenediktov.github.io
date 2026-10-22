@@ -1,0 +1,19 @@
+<nav class="nav" aria-label="Основная навигация">
+  <a class="nav__brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <ul class="nav__links">
+    {% assign links = "/|Обо мне,/portfolio/|Портфолио,/blog/|Блог,/contacts/|Контакты" | split: "," %}
+    {% for link in links %}
+      {% assign parts = link | split: "|" %}
+      {% assign href = parts[0] %}
+      {% if href == "/blog/" %}
+        {% assign active = page.url | slice: 0, 6 %}
+        {% if active == "/blog/" %}{% assign is_active = true %}{% else %}{% assign is_active = false %}{% endif %}
+      {% elsif page.url == href %}
+        {% assign is_active = true %}
+      {% else %}
+        {% assign is_active = false %}
+      {% endif %}
+      <li><a href="{{ href | relative_url }}"{% if is_active %} aria-current="page"{% endif %}>{{ parts[1] }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
