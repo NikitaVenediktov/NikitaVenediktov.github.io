@@ -5,6 +5,9 @@ lang: ru
 locale: ru_RU
 url: https://nikitavenediktov.github.io
 baseurl: ""
+# Счётчик посещений GoatCounter: имя аккаунта из адреса <имя>.goatcounter.com.
+# Пустое значение отключает счётчик.
+goatcounter: nikitavenediktov
 permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
 plugins:
