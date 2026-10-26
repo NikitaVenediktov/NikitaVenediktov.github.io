@@ -1,0 +1,5 @@
+_site/
+.jekyll-cache/
+# Генерируется при сборке из Telegram-канала
+_posts/telegram/
+assets/telegram/

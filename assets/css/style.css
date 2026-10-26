@@ -100,6 +100,10 @@ h3 + .post__meta { margin-top: 0; }
 .posts time { color: var(--muted); font-variant-numeric: tabular-nums; }
 .posts__excerpt { flex-basis: 100%; margin: 0; color: var(--muted); font-size: .95rem; }
 
+.post img { max-width: 100%; height: auto; border-radius: .5rem; }
+.post blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 3px solid var(--border); color: var(--muted); }
+.tg-post blockquote + br { display: none; }
+
 .post__nav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--border); }
 
 .footer {
