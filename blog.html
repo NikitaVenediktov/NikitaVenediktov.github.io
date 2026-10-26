@@ -10,9 +10,11 @@ permalink: /blog/
   <li>
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.description %}<p class="posts__excerpt">{{ post.description }}</p>{% endif %}
   </li>
   {% endfor %}
 </ul>
 {% else %}
 <p>Записей пока нет — скоро появятся.</p>
 {% endif %}
+<p class="post__meta"><a href="{{ '/blog/feed.xml' | relative_url }}">RSS</a> — подписка на новые записи.</p>

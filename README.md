@@ -6,7 +6,7 @@
 
 - `index.md` — «Обо мне»
 - `portfolio.md` — «Портфолио»
-- `blog.html` — список записей; записи кладутся в `_posts/ГГГГ-ММ-ДД-slug.md`
+- `blog.html` — список записей; записи кладутся в `_posts/ГГГГ-ММ-ДД-slug.md` с `layout: post`, `title` и `description` (краткое описание для списка, RSS и превью ссылок)
 - `contacts.md` — «Контакты»
 - `_layouts/`, `_includes/`, `assets/css/` — общий шаблон, навигация и стили
 - `favicon.svg`, `favicon.ico`, `apple-touch-icon.png` — иконки сайта; `assets/og-image.png` — картинка для превью ссылок

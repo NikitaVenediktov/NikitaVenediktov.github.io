@@ -98,6 +98,9 @@ h3 + .post__meta { margin-top: 0; }
 .posts { padding: 0; list-style: none; }
 .posts li { display: flex; flex-wrap: wrap; gap: .25rem 1rem; padding: .5rem 0; border-bottom: 1px solid var(--border); }
 .posts time { color: var(--muted); font-variant-numeric: tabular-nums; }
+.posts__excerpt { flex-basis: 100%; margin: 0; color: var(--muted); font-size: .95rem; }
+
+.post__nav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--border); }
 
 .footer {
   padding: 1.5rem 0;
