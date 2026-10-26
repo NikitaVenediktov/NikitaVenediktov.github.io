@@ -31,7 +31,7 @@ DS Team Lead в Raft, ментор и тимлид в AI Talent Hub. Заним�
 ## Выступления
 
 - **AiConf 2024** — «From Prompt to Agent-Based System: How to Turn LLM into a High Quality Service».
-- **DataHalloween 2024** — «How to make a call-bot in 2024».
+- **Data Halloween 2024** — [«Алло, Эйнштейн? Создание call-ботов на базе LLM в 2024 году»](https://www.youtube.com/watch?v=lR6jraVe11E).
 
 ## Достижения
 

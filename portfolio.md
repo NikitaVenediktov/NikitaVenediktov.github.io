@@ -64,7 +64,7 @@ permalink: /portfolio/
 ## Выступления и публикации
 
 - **AiConf 2024** — [«От промпта к агентной системе: как превратить LLM в высококачественный сервис»](https://aiconf.ru/2024/abstracts/12813). Когда хватает цепочки промптов, а когда нужна агентная система, и как довести open-source LLM до качества продакшен-сервиса.
-- **DataHalloween 2024** — «How to make a call-bot in 2024».
+- **Data Halloween 2024** (ODS) — [«Алло, Эйнштейн? Создание call-ботов на базе LLM в 2024 году»](https://www.youtube.com/watch?v=lR6jraVe11E), видео на YouTube.
 - **Хабр** — [«Как мы сделали переводчик точнее и дешевле Google и Yandex»](https://habr.com/ru/companies/raft/articles/788088/), январь 2024.
 
 ## Хакатоны
