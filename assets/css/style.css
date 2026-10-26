@@ -90,9 +90,10 @@ h3 + .post__meta { margin-top: 0; }
   border-radius: .75rem;
 }
 
-.card h2 { margin: 0 0 .5rem; font-size: 1.15rem; }
+.card h2, .card h3 { margin: 0 0 .5rem; font-size: 1.15rem; }
 .card p { margin: 0 0 .5rem; }
-.card__tags, .post__meta { color: var(--muted); font-size: .9rem; }
+.card__meta { margin-top: -.25rem; }
+.card__tags, .card__meta, .post__meta { color: var(--muted); font-size: .9rem; }
 
 .posts { padding: 0; list-style: none; }
 .posts li { display: flex; flex-wrap: wrap; gap: .25rem 1rem; padding: .5rem 0; border-bottom: 1px solid var(--border); }
