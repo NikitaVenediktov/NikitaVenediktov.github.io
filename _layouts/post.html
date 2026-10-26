@@ -5,6 +5,7 @@ layout: default
   <p class="post__meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time></p>
   <h1>{{ page.title }}</h1>
   {{ content }}
+  {% if page.source_url %}<p class="post__meta">Оригинал: <a href="{{ page.source_url }}">{{ page.source | default: "источник" }}</a></p>{% endif %}
 </article>
 <nav class="post__nav" aria-label="Другие записи">
   {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>{% endif %}
