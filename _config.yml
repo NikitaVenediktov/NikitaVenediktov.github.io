@@ -1,11 +1,24 @@
 title: Никита Венедиктов
-description: Python-разработчик и аналитик данных. Портфолио и блог.
+description: DS Team Lead в Raft, ментор в AI Talent Hub. NLP и LLM-системы. Портфолио и блог.
+author: Никита Венедиктов
 lang: ru
+locale: ru_RU
 url: https://nikitavenediktov.github.io
 baseurl: ""
 permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+feed:
+  path: blog/feed.xml
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image.png
