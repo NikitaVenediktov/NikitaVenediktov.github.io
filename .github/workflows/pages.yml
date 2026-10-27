@@ -28,7 +28,7 @@ jobs:
       - name: Импорт постов из Telegram
         run: |
           pip install beautifulsoup4==4.12.3
-          python _scripts/telegram_import.py iznanka_ai
+          python _scripts/telegram_import.py underside_ai
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
       - name: Сборка Jekyll

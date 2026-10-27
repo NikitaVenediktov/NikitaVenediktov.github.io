@@ -4,7 +4,7 @@
 в `_posts/telegram/` как запись Jekyll, а картинки — в `assets/telegram/`.
 Запускается в GitHub Actions перед сборкой сайта; результат в git не коммитится.
 
-    python _scripts/telegram_import.py iznanka_ai
+    python _scripts/telegram_import.py underside_ai
 """
 
 import json
@@ -178,4 +178,4 @@ def main(channel):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else "iznanka_ai")
+    main(sys.argv[1] if len(sys.argv) > 1 else "underside_ai")
